@@ -3,7 +3,7 @@ A modification for the ASP.NET CORE Identity Razor Pages Scaffolding for using E
 
 
 ## The main changes from the default Scaffolding are:
-### Path ~\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.cs
+### Path (~\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.cs)[src/Sso2.RazorPages/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.cs]
 method OnGetAsync
 * Generates the new OTP
 * Remove previous stored OTP
