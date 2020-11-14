@@ -18,3 +18,5 @@ This is not an elegant solution because several aspects:
 * It invalidates the Authenticator App Solution that Microsoft brings to us by default of setting an Authenticator.
 * The OTP is saved in plain text, It should be saved encrypted and encrypt the code informed by the user to compare.
 * This repository is just reflecting a PoC as research purpose, don't use it in production without caring of this notes.
+* SendGrid configuration comes from user secrets, you can find a reference [here](https://docs.microsoft.com/es-es/aspnet/core/security/authentication/accconfirm?view=aspnetcore-5.0&tabs=visual-studio#configure-sendgrid-user-secrets)
+* Remember to replace the DefaultConnection in ConnectionStrings, in appsettings.json
