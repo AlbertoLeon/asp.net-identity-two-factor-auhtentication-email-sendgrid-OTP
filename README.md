@@ -1,4 +1,4 @@
-# ASP.NET Identity Two Factor Auhtentication Email Sendgrid OTP
+# ASP.NET Identity Two Factor Authentication Email Sendgrid OTP
 A modification for the ASP.NET CORE Identity Razor Pages Scaffolding for using Email with Sendrid as Sender as two factor authentication with the OTP
 
 
@@ -15,6 +15,6 @@ method OnPostAsync
 
 ### Notes
 This is not an elegant solution because several aspects:
-* It invalidates the Authenticar App Solution that Microsoft brings to us by default of setting an Authenticator.
-* The OTP is saved in plain text, It should be saved encrypted and encrypt the code informed by the user to comparision.
+* It invalidates the Authenticator App Solution that Microsoft brings to us by default of setting an Authenticator.
+* The OTP is saved in plain text, It should be saved encrypted and encrypt the code informed by the user to compare.
 * This repository is just reflecting a PoC as research purpose, don't use it in production without caring of this notes.
