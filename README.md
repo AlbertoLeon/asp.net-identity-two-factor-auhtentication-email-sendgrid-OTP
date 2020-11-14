@@ -3,7 +3,7 @@ A modification for the ASP.NET CORE Identity Razor Pages Scaffolding for using E
 
 
 ## The main changes from the default Scaffolding are:
-### Path (~\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.cs)[src/Sso2.RazorPages/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.cs]
+### Path [~\Areas\Identity\Pages\Account\LoginWith2fa.cshtml.cs](src/Sso2.RazorPages/Areas/Identity/Pages/Account/LoginWith2fa.cshtml.cs)
 method OnGetAsync
 * Generates the new OTP
 * Remove previous stored OTP
@@ -20,3 +20,4 @@ This is not an elegant solution because several aspects:
 * This repository is just reflecting a PoC as research purpose, don't use it in production without caring of this notes.
 * SendGrid configuration comes from user secrets, you can find a reference [here](https://docs.microsoft.com/es-es/aspnet/core/security/authentication/accconfirm?view=aspnetcore-5.0&tabs=visual-studio#configure-sendgrid-user-secrets)
 * Remember to replace the DefaultConnection in ConnectionStrings, in appsettings.json
+* The original idea and modifications are applied following the Microsoft Docs guidelines for [Multi-Factor Authentication](https://docs.microsoft.com/es-es/aspnet/core/security/authentication/mfa?view=aspnetcore-5.0)
