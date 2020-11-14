@@ -1,5 +1,5 @@
 # ASP.NET Identity Two Factor Authentication Email Sendgrid OTP
-A modification for the ASP.NET CORE Identity Razor Pages Scaffolding for using Email with Sendrid as Sender as two factor authentication with the OTP
+A modification for the ASP.NET CORE Identity Razor Pages Scaffolding for using Email with SendGrid as IEmailSender as two factor authentication with the OTP
 
 
 ## The main changes from the default Scaffolding are:
